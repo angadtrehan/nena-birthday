@@ -1,0 +1,255 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191817;
+}
+
+h1, h2, h3, h4, h5, p {
+    z-index: 1000;
+    font-family: "Jura", sans-serif;
+    font-weight: 550;
+    color:#FFFEE9;
+    text-shadow: 3px 8px 8.4px rgba(0, 0, 0, 0.30), 1px 7px 14.5px rgba(0, 0, 0, 0.30);
+}
+
+.first-section, .second-section, .third-section, .fourth-section {
+    height: 100vh;
+}
+
+.katanas-pic {
+    width: 100vw;
+    height: 100%;
+}
+
+.heroes-pic {
+    width: 100vw;
+    height: 100%;
+    margin-top: -5%;
+    padding-bottom: 50px;
+}
+
+.katanas-pic img, .heroes-pic img, .characters-pic img, .mask-pic img {
+    width: 100%;
+}
+
+.third-section {
+    margin-top: 20%;;
+}
+
+.characters-pic {
+    width: 100vw;
+    height: auto;
+}
+
+.fourth-section {
+    margin-top: 10%;
+}
+
+.horse-pic {
+    width: 100vw;
+    height: auto;
+}
+
+.horse-pic img {
+    width: 50%;
+}
+
+.fifth-section {
+    margin-top: 7%;
+}
+.mask-pic {
+    width: 100vw;
+    height: auto;
+}
+
+.foot-banner {
+    width: 100vw;
+    height: 20vh;
+    background-color: #856237;
+    margin-top: 100px;
+}
+
+.title h2 {
+    position: absolute;
+    top: 43%;
+    width: 100vw;
+    font-size: 96pt;
+    text-align: center;
+    letter-spacing: 45px;
+    
+}
+
+.title h1 {
+    position: absolute;
+    top: 56.4%;
+    width: 100vw;
+    font-size: 128pt;
+    text-align: center;
+    letter-spacing: 58px;
+}
+
+.edition h1 {
+    position: absolute;
+    top: 160%;
+    width: 100vw;
+    font-size: 40pt;
+    text-align: center;
+    letter-spacing: 35px;
+}
+
+.twenty {
+    position: absolute;
+    top: 263%;
+    width: 100vw;
+    font-size: 48pt;
+    text-align: center;
+    letter-spacing: 24px;
+    color: #191817;
+    font-weight: 500;
+}
+.goal {
+    position: absolute;
+    top: 299%;
+    width: 100vw;
+    font-size: 48pt;
+    text-align: center;
+    letter-spacing: 24px;
+    color: #191817;
+}
+
+.the-goal {
+    position: absolute;
+    top: 395%;
+    width: 50%;
+    font-size: 35pt;
+    text-align: center;
+    letter-spacing: 35px;
+    margin-left: 50%;
+}
+
+.coupon {
+    width: 100vw;
+    font-size: 50pt;
+    text-align: center;
+    letter-spacing: 45px;
+    margin-top: 85px;
+}
+.coupon h1 {
+    color: rgb(199, 25, 25);
+}
+.sub-coupon {
+    width: 100vw;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20pt;
+    letter-spacing: 12px;
+}
+
+.happy-birthday {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 48pt;
+    letter-spacing: 25px;
+    line-height: 20vh;
+    font-weight: 700;
+}
+
+@media (max-width: 900px) {
+    .title h1, .title h2, .edition h1, .third-section h1, .the-goal h1, .coupon h1, .sub-coupon p, .foot-banner h1 {
+        font-size: 16pt;
+        letter-spacing: 0;
+        font-weight: 700;
+    }
+
+    .title h1 {
+        top: 49.5%;
+        font-size: 37pt;
+        letter-spacing: 15px;
+    }
+    .title h2 {
+        top: 44.3%;
+        font-size: 30pt;
+        letter-spacing: 15px;
+    }
+
+    .second-section {
+        margin-top: 12%;
+    }
+    .edition h1 {
+        top: 172%;
+        font-size: 18pt;
+        font-weight: 600;
+        letter-spacing: 9px;
+    }
+
+    .third-section {
+        margin-top: -20%;
+    }
+    .third-section h1 {
+        color: #FFFEE9;
+        font-weight: 400;
+        letter-spacing: 9px;
+    }
+    .twenty {
+        top: 221%;
+    }
+    .goal {
+        top: 255%;
+    }
+
+    .fourth-section {
+        margin-top: -12%;
+    }
+    .horse-pic img {
+        width: 100%;
+    }
+    .the-goal {
+        width: 100%;
+        margin-left: 0;
+        top: 329.4%;
+    }
+    .the-goal h1 {
+        font-size: 34pt;
+        font-weight: 600;
+        letter-spacing: 15px;
+    }
+
+    .fifth-section {
+        margin-top: 29%;
+    }
+    .coupon {
+        margin-top: 59px;
+    }
+    .coupon h1 {
+        font-size: 24pt;
+        letter-spacing: 9px;
+        padding-left: 10px;
+    }
+    .sub-coupon {
+        margin-top: 35px;
+    }
+    .sub-coupon p {
+        font-weight: 500;
+        font-size: 12pt;
+        letter-spacing: 6px;
+    }
+
+    .foot-banner {
+        height: 13.5vh;
+        margin-top: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .foot-banner h1 {
+        font-size: 24pt;
+        font-weight: 500;
+        letter-spacing: 10px;
+        line-height: normal;
+    }
+}
